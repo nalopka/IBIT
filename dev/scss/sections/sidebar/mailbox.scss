@@ -1,0 +1,38 @@
+nav {
+        width: 100%;
+    }
+    .mailboxCount {
+        position: absolute;
+        right: 32px;
+        color: #C1C5E6;
+    }
+.mailBox {
+    font-size: 14px;
+    li {
+        box-sizing: border-box;
+        padding: 16px 32px;
+        position: relative;
+        color: #D8D8D8;
+
+    }
+    li:first-of-type {
+        position: relative;
+        padding-left: 64px;
+        .icon {
+            position: absolute;
+            top: 20px;
+            left: 32px;
+            width: 16px;
+            height: 14px;
+            background-image: url('img/icon/inbox.png');
+        }
+    }
+
+    .active {
+        background-color: #151929;
+        color: #fff;
+        .mailboxCount {
+            color: #fff;
+    }
+}
+}

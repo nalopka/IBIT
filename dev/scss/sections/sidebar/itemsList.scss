@@ -1,0 +1,23 @@
+.itemList {
+    color: #C1C5E6;
+    font-size: 14px;
+    margin-top: 16px;
+    $list: (archive, drafts, thrash, readlater, sent, spam, starred);
+		@each $item in $list {
+				.#{$item} { background-image: url('img/icon/#{$item}.png'); }
+		}
+
+    li {
+        box-sizing: border-box;
+        padding: 16px 32px 16px 64px;
+        position: relative;
+    }
+    .icon {
+        position: absolute;
+        top: 18px;
+        left: 32px;
+        width: 16px;
+        height: 16px;
+    }
+
+}

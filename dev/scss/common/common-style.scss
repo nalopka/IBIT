@@ -1,0 +1,12 @@
+// $font-primary: Tahoma, sans-serif;
+:root {
+  --font-primary: Tahoma, sans-serif;
+}
+// $font-secondary: RENAME;
+
+html {
+  font-family: var(--font-primary);
+  font-size: 16px;
+  line-height: 1.4;
+  color: #444;
+}

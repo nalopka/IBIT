@@ -1,0 +1,21 @@
+.sidebar {
+
+    @import 'mailbox';
+    @import 'itemsList';
+    z-index: 99;
+    box-sizing: border-box;
+    padding-top: 60px;
+    width: 250px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(28,35,55);
+    box-shadow: 0 0 12px #02091E;
+
+    .newMessage {
+        @extend %message-button;
+    }
+
+
+}

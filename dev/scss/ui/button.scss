@@ -1,0 +1,20 @@
+%message-button {
+        position: relative;
+        padding: 15px 40px 15px 64px;
+        margin-bottom: 39px;
+        background-color: #4880FF;
+        color: white;
+        border: none;
+        border-radius: 25px;
+        outline: none;
+        font-size: 14px;
+        &:before {
+                content: '';
+                position: absolute;
+                left: 40px;
+                top: 13px;
+                width: 20px;
+                height: 20px;
+                background: url('img/icon/feather.png') center / 300% no-repeat;
+        }
+}

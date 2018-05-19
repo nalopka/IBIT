@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="main.css">
+    <meta name="viewport" content="width=device-width" initial-scale="1">
+    <meta name="description" content="SOME STUFF">
+    <title>RENAME ME</title>
+  </head>
+  <body>
+    <div class="root">
+      <div class="sidebar">
+        <button class="newMessage">New message</button>
+        <nav>
+          <ul class="mailBox">
+            <li class="active">All inboxes<span class="icon"></span><span class="mailboxCount">7</span></li>
+            <li>contant@jakubwp.com<span class="mailboxCount">2</span></li>
+            <li>dribble@jakubwo.com<span class="mailboxCount">5</span></li>
+          </ul>
+          <ul class="itemList">
+            <li>Starred<span class="icon starred"></span><span class="mailboxCount">3</span></li>
+            <li>Archive<span class="icon archive"></span><span class="mailboxCount"></span></li>
+            <li>Thrash<span class="icon thrash"></span><span class="mailboxCount"></span></li>
+            <li>Spam<span class="icon spam"></span><span class="mailboxCount"></span></li>
+            <li>Sent<span class="icon sent"></span><span class="mailboxCount"></span></li>
+            <li>Read Later<span class="icon readlater"></span><span class="mailboxCount"></span></li>
+            <li>Drafts<span class="icon drafts"></span><span class="mailboxCount">1</span></li>
+          </ul>
+        </nav>
+      </div>
+      <section class="message">
+        <div class="textInput"><span class="icon"></span>
+          <input placeholder="Search for messages…">
+        </div>
+        <div class="emailMessage unread"><span class="image"></span>
+          <p class="name">Penny Knight</p>
+          <p class="label important">Product Designer at Coinbase</p>
+          <p class="text">Hello Jakub, We are seeking a Product Designer to join our team in Sosnowiec. We have just re...</p><span class="timecode">10:10 AM</span>
+        </div>
+        <div class="emailMessage read"><span class="image"></span>
+          <p class="name">Františka Krteček</p>
+          <p class="label">Re: Extrémní jízda tramvají v Brne</p>
+          <p class="text">Ahoj. Prožijte s Kotlárem tento jedinečný a extrémní zážitek. V sobotu 10.2.2019 se ne...</p><span class="timecode">9:32 AM</span>
+        </div>
+        <div class="emailMessage active"><span class="image"></span>
+          <p class="name">John Appleseed</p>
+          <p class="label">The Basics Of Buying A Telescope</p>
+          <p class="text">Hello Jakub, Buying the right telescope to take your love of astronomy to the next level is a bi...</p><span class="timecode attachment">9:32 AM</span><span class="lightning"></span>
+        </div>
+        <div class="emailMessage unread"><span class="image"></span>
+          <p class="name">Františka Krteček</p>
+          <p class="label">Re: Extrémní jízda tramvají v Brne</p>
+          <p class="text">Ahoj. Prožijte s Kotlárem tento jedinečný a extrémní zážitek. V sobotu 10.2.2019 se ne...</p><span class="timecode">9:32 AM</span><span class="lightning"></span>
+        </div>
+        <div class="emailMessage unread"><span class="image"></span>
+          <p class="name">SSam Sung</p>
+          <p class="label">Re: Extrémní jízda tramvají v Brne</p>
+          <p class="text">Hello Jakub, We are expanding our Product Design team in Cupertino, CA. At the mom...</p><span class="timecode">9:32 AM</span><span class="lightning"></span>
+        </div>
+        <div class="emailMessage unread"><span class="image"></span>
+          <p class="name">Františka Krteček</p>
+          <p class="label">Re: Extrémní jízda tramvají v Brne</p>
+          <p class="text">Ahoj. Prožijte s Kotlárem tento jedinečný a extrémní zážitek. V sobotu 10.2.2019 se ne...</p><span class="timecode">9:32 AM</span><span class="lightning"></span>
+        </div>
+        <div class="emailMessage unread"><span class="image"></span>
+          <p class="name">Františka Krteček</p>
+          <p class="label">Re: Extrémní jízda tramvají v Brne</p>
+          <p class="text">Ahoj. Prožijte s Kotlárem tento jedinečný a extrémní zážitek. V sobotu 10.2.2019 se ne...</p><span class="timecode">9:32 AM</span><span class="lightning"></span>
+        </div>
+      </section>
+      <section class="letter">
+        <div class="topMenu">
+          <div class="title"><span class="image"></span><a href="">John Appleaseed</a>&nbsp;to&nbsp;<a href="">contact@jakubwp.com</a></div>
+        </div>
+        <div class="textBlock">
+          <p class="time">Today, 6:02 AM</p>
+          <h2 class="title">The Basics Of Buying A Telescope</h2>
+          <p class="text">Hello Jakub,</p>
+          <p class="text">Buying the right telescope to take your love of astronomy to the next level is a big next in the development of your passion for the stars. In many ways, it is a step from someone who is just fooling around with astronomy to a  student of the science. But you and I both know that there is still  big step after buying a telescope before you really know to use it.</p>
+          <p class="text">So it is critically important that you get just the right telescope where you are and what your star gazing preferences are. To start with let’s discuss the three major kinds of and then lay down some “Telescope 101″ concepts to increase your that you buy the right thing.</p>
+          <p class="text">Best regards,</p>
+          <p class="text">John Appleseed</p>
+        </div>
+        <div class="imagesContainer">
+          <div class="image image1"></div>
+          <div class="image image2"></div>
+          <div class="image image3"></div>
+        </div>
+        <div class="messageBlock">
+          <textarea placeholder="Hello John, I have no idea what is this message about"></textarea>
+          <button>Send</button>
+          <div class="manupulate">
+            <div class="attach"></div>
+            <div class="track"></div>
+            <div class="text"></div>
+            <div class="image"></div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="main.min.js"></script>
+  </body>
+</html>
